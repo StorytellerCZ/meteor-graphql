@@ -28,7 +28,7 @@ Package.registerBuildPlugin({
 });
 
 Package.onUse(function use(api) {
-  api.versionsFrom('3.0-beta.0');
+  api.versionsFrom('3.0');
 
   api.use(packages, ['server', 'client']);
 });
